@@ -1,0 +1,85 @@
+﻿@using dpz;
+@{
+
+    //ViewData["Title"] = "Step2";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    //string xmlString = dpz.Net.Http.GetUTF8($"{site.Config.Orm.XmlUrl}/Setting.xml");
+    //bool hasObjects = false;
+    bool hasTable = false;
+    //bool isReady = true;
+    long authId = 0;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        hasTable = dbc.CheckTable("AosApps");
+    }
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        if (!dbc.CheckTable("AosAuthorize")) {
+            hasTable = false;
+        }
+
+        if (hasTable) {
+            var row = dbc.GetGdmlOne($"@{{$[AosAuthorize]&[DBSign=='Manage']}}");
+            if (row.IsEmpty) {
+                hasTable = false;
+            }
+            authId = row["ID"].ToLong();
+        }
+    }
+
+    string ip = System.Net.NetworkInformation.NetworkInterface.GetAllNetworkInterfaces()
+    .Select(p => p.GetIPProperties())
+    .SelectMany(p => p.UnicastAddresses)
+    .Where(p => p.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork && !System.Net.IPAddress.IsLoopback(p.Address))
+    .FirstOrDefault()?.Address.ToString();
+
+    string appConfigUrl = site.Config.Url.ManageConfig.Replace("${IP}", ip);
+    string appXmlString = dpz.Net.Http.GetUTF8(appConfigUrl);
+
+}
+
+<div class="box">
+    <div class="title">第5/7步&nbsp;初始化管理应用</div>
+    <div class="line">管理应用配置访问地址&nbsp;<span>@appConfigUrl</span></div>
+    <div class="line" style="font-weight:bold;font-size:16px;">管理应用状态：</div>
+    <div class="scroll-box">
+        @using (dpz.Data.Xml xml = new dpz.Data.Xml(appXmlString)) {
+            var xmlEntity = xml["entity"];
+            var xmlApps = xmlEntity["apps"];
+            string appsSign = xmlApps.Attr["sign"];
+            if (appsSign != "") { appsSign += "."; }
+            foreach (var xmlApp in xmlApps.Nodes) {
+                if (xmlApp.Name == "app") {
+                    string appSign = appsSign + xmlApp.Attr["sign"];
+                    string appTitle = xmlApp.Attr["title"];
+                    string appVer = xmlApp.Attr["version"];
+
+                    var rowVer = "无";
+                    var opearte = "<i>无需更新</i>";
+                    if (hasTable) {
+                        using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+                            var rowApp = dbc.GetGdmlOne($"@{{$[AosApps]&[AuthID=='{authId}'&&Name=='{appSign}']}}");
+                            if (!rowApp.IsEmpty) { rowVer = rowApp["Version"]; }
+                        }
+                    }
+                    if (rowVer == "无") {
+                        opearte = $"<a href='javascript:;' onclick=\"self.createManageApp('{appSign}');\">安装</a>";
+                    } else if (appVer != rowVer) {
+                        opearte = $"<a href='javascript:;' onclick=\"self.createManageApp('{appSign}');\">更新</a>";
+                    }
+
+                    <div class="line">
+                        <div><s>@(appTitle)(@appSign)</s>&nbsp;<u>最新版本&nbsp;@appVer</u></div>
+                        <div id="div_@(appSign.Replace(" .","_"))" style="text-indent:14px;padding-top:5px;">已安装版本&nbsp;<span>@rowVer</span>&nbsp;@Html.Raw(opearte)</div>
+                    </div>
+                }
+            }
+        }
+    </div>
+    <div class="buttons">
+        <a href="/Setup/Step4">上一步</a>
+        <a href="/Setup/Step6">下一步</a>
+    </div>
+</div>
+

@@ -1,0 +1,57 @@
+﻿@{
+    //ViewData["Title"] = "Step2";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    string xmlString = dpz.Net.Http.GetUTF8($"{site.Config.Orm.XmlUrl}/Setting.xml");
+    bool hasObjects = false;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        hasObjects = dbc.CheckTable("AosObjects");
+    }
+
+}
+
+<div class="box">
+    <div class="title">第2/7步&nbsp;安装平台数据表</div>
+    <div class="line">配置文件访问地址&nbsp;<span>@(site.Config.Orm.XmlUrl)/Setting.xml</span></div>
+    <div class="line" style="font-weight:bold;font-size:16px;">平台数据表状态：</div>
+    <div class="scroll-box">
+        @using (dpz.Data.Xml xml = new dpz.Data.Xml(xmlString)) {
+                var xmlDB = xml["database"];
+                var xmlAos = xmlDB.GetNodeByAttrValue("name", "Aos", false);
+                foreach (var xmlTable in xmlAos.Nodes) {
+                    if (xmlTable.Name == "table") {
+                        string tabName = xmlTable.Attr["name"];
+                        string tabVer = xmlTable.Attr["version"];
+                        using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+                            bool tabExist = dbc.CheckTable(tabName);
+                            //var row = dbc.GetOne($"Select * From sysObjects Where Name ='{tabName}' And Type In ('S','U')");
+                            var rowVer = "无";
+                            var opearte = "<i>无需更新</i>";
+                            if (tabExist && hasObjects) {
+                                var rowObject = dbc.GetGdmlOne($"@{{$[AosObjects]&[Name=='{tabName}']}}");
+                                if (!rowObject.IsEmpty) {
+                                    rowVer = rowObject["Version"];
+                                }
+                            }
+                            if (rowVer == "无") {
+                                opearte = $"<a href='javascript:;' onclick=\"self.createAosTable('{tabName}');\">安装</a>";
+                            } else if (tabVer != rowVer) {
+                                opearte = $"<a href='javascript:;' onclick=\"self.updateAosTable('{tabName}');\">更新</a>";
+                            }
+        <div class="line">
+            <div><s>@tabName</s>&nbsp;<u>最新版本&nbsp;@tabVer</u></div>
+            <div id="div@(tabName)" style="text-indent:14px;padding-top:5px;">已安装版本&nbsp;<span>@rowVer</span>&nbsp;@Html.Raw(opearte)</div>
+        </div>
+                        }
+                    }
+                }
+
+            }
+    </div>
+    <div class="buttons">
+        <a href="/Setup">上一步</a>
+        <a href="/Setup/Step3">下一步</a>
+    </div>
+</div>
+

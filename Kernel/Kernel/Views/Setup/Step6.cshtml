@@ -1,0 +1,27 @@
+﻿@{
+    //ViewData["Title"] = "Step2";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    //string xmlString = dpz.Net.Http.GetUTF8($"{site.Config.Orm.XmlUrl}/Setting.xml");
+    bool hasAos = false;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        hasAos = !dbc.GetGdmlOne($"@{{$[AosUsers]&[Name=='root']}}").IsEmpty;
+    }
+
+}
+
+<div class="box">
+    <div class="title">第6/7步&nbsp;初始化超级管理员</div>
+    <div class="line">root用户状态&nbsp;@Html.Raw(hasAos ? "<span style='color:#090;'>正常</span>" : "<span style='color:#900;'>未初始化</span>")</div>
+    <div class="buttons">
+        @if (!hasAos) {
+            <a id="lnkSetup" href="javascript:;" onclick="self.createRoot();">初始化root用户</a>
+        }
+        <a href="/Setup/Step5">上一步</a>
+        @if (hasAos) {
+            <a href="/Setup/Step7">下一步</a>
+        }
+    </div>
+</div>
+

@@ -1,0 +1,25 @@
+﻿@inherits site.RazorPage
+@{
+    //ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    bool hasAos = false;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Defend)) {
+        //var row = dbc.GetGdmlOne("select * from sys.databases where [name] = 'Aos'");
+        hasAos = dbc.CheckDatabase("Aos");
+    }
+}
+
+<div class="box">
+    <div class="title">第1/7步&nbsp;安装平台数据库</div>
+    <div class="line">平台数据库安装状态&nbsp;@Html.Raw(hasAos ? "<span style='color:#090;'>正常</span>" : "<span style='color:#900;'>未安装</span>")</div>
+    <div class="buttons">
+        @if (!hasAos) {
+            <a id="lnkSetup" href="javascript:;" onclick="self.createAos();">安装AOS数据库</a>
+        } else {
+            <a href="/Setup/Step2">下一步</a>
+        }
+    </div>
+</div>
+

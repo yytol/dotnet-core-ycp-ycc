@@ -1,0 +1,58 @@
+﻿@{
+    //ViewData["Title"] = "Step2";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    string xmlString = dpz.Net.Http.GetUTF8($"{site.Config.Orm.XmlUrl}/Setting.xml");
+    bool hasObjects = false;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Manage)) {
+        hasObjects = dbc.CheckTable("SystemObjects");
+    }
+
+    string[] xmlNeeds = new string[] { "Base", "Kernel", "Table", "User", "Session" };
+
+}
+
+<div class="box">
+    <div class="title">第4/7步&nbsp;安装管理数据表</div>
+    <div class="line" style="font-weight:bold;font-size:16px;">管理数据表状态：</div>
+    <div class="scroll-box">
+        @using (dpz.Data.Xml xml = new dpz.Data.Xml(xmlString)) {
+            var xmlDB = xml["database"];
+            for (int i = 0; i < xmlNeeds.Length; i++) {
+                var xmlAos = xmlDB.GetNodeByAttrValue("name", xmlNeeds[i], false);
+                foreach (var xmlTable in xmlAos.Nodes) {
+                    if (xmlTable.Name == "table") {
+                        string tabName = xmlTable.Attr["name"];
+                        string tabVer = xmlTable.Attr["version"];
+                        using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Manage)) {
+                            //var row = dbc.GetOne($"Select * From sysObjects Where Name ='{tabName}' And Type In ('S','U')");
+                            var rowVer = "无";
+                            var opearte = "<i>无需更新</i>";
+                            if (dbc.CheckTable(tabName) && hasObjects) {
+                                var rowObject = dbc.GetGdmlOne($"@{{$[SystemObjects]&[Name=='{tabName}'&&Type=='Table']}}");
+                                if (!rowObject.IsEmpty) {
+                                    rowVer = rowObject["Version"];
+                                }
+                            }
+                            if (rowVer == "无") {
+                                opearte = $"<a href='javascript:;' onclick=\"self.createManageTable('{xmlNeeds[i]}','{tabName}');\">安装</a>";
+                            } else if (tabVer != rowVer) {
+                                opearte = $"<a href='javascript:;' onclick=\"self.updateManageTable('{xmlNeeds[i]}','{tabName}');\">更新</a>";
+                            }
+                            <div class="line">
+                                <div><s>@tabName</s>&nbsp;<u>最新版本&nbsp;@tabVer</u></div>
+                                <div id="div@(tabName)" style="text-indent:14px;padding-top:5px;">已安装版本&nbsp;<span>@rowVer</span>&nbsp;@Html.Raw(opearte)</div>
+                            </div>
+                        }
+                    }
+                }
+            }
+        }
+    </div>
+    <div class="buttons">
+        <a href="/Setup/Step3">上一步</a>
+        <a href="/Setup/Step5">下一步</a>
+    </div>
+</div>
+

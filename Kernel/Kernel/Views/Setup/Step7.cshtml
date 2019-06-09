@@ -1,0 +1,62 @@
+﻿@using dpz;
+@{
+    //ViewData["Title"] = "Step2";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    bool hasTable = false;
+    //bool isReady = true;
+    long authId = 0;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        hasTable = dbc.CheckTable("AosApps");
+    }
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        if (!dbc.CheckTable("AosAuthorize")) {
+            hasTable = false;
+        }
+
+        if (hasTable) {
+            var row = dbc.GetGdmlOne($"@{{$[AosAuthorize]&[DBSign=='Manage']}}");
+            if (row.IsEmpty) {
+                hasTable = false;
+            }
+            authId = row["ID"].ToLong();
+        }
+    }
+
+    //string xmlString = dpz.Net.Http.GetUTF8($"{site.Config.Orm.XmlUrl}/Setting.xml");
+    //bool hasAos = false;
+    long uid = 0;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        var row = dbc.GetGdmlOne($"@{{$[AosUsers]&[Name=='root']}}");
+        if (!row.IsEmpty) { uid = row["ID"].ToLong(); }
+    }
+
+}
+
+<div class="box">
+    <div class="title">第7/7步&nbsp;初始化超级管理员应用关联</div>
+    <div class="line" style="font-weight:bold;font-size:16px;">管理应用关联状态：</div>
+    <div class="scroll-box">
+        @using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+            var list = dbc.GetGdmlList($"@{{$[AosApps]&[Name??'dpz.Manage.%']+[Text]}}");
+            foreach (var row in list) {
+                var rowRel = dbc.GetGdmlOne($"@{{$[AosUserApps]&[UserID=='{uid}'&&AuthID=='{authId}'&&AppID=='{row["ID"]}']}}");
+                <div class="line">
+                    @if (rowRel.IsEmpty) {
+                        <div><s>@(row["Text"])(@row["Name"])</s>&nbsp;<a href="javascript:;" onclick="self.createRootUserApp('@row["ID"]');">关联</a></div>
+                    } else {
+                        <div><s>@(row["Text"])(@row["Name"])</s>&nbsp;<span>已关联</span></div>
+                    }
+                </div>
+            }
+        }
+    </div>
+    <div class="buttons">
+        <a href="/Setup/Step6">上一步</a>
+        <a href="/">完成</a>
+    </div>
+</div>
+

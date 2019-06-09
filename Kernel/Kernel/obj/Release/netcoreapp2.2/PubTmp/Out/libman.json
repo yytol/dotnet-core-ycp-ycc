@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "filesystem",
+      "library": "https://vuejs.org/js/vue.js",
+      "destination": "wwwroot/lib/vue/"
+    },
+    {
+      "provider": "filesystem",
+      "library": "https://vuejs.org/js/vue.min.js",
+      "destination": "wwwroot/lib/vue/"
+    },
+    {
+      "provider": "filesystem",
+      "library": "https://dev.lywos.com/Jdk/dpz/1.4.1905.5/dpz.js",
+      "destination": "wwwroot/lib/dpz/"
+    }
+  ]
+}

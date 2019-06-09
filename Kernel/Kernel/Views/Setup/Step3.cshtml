@@ -1,0 +1,80 @@
+﻿@using dpz
+@{
+    //ViewData["Title"] = "Step2";
+    Layout = "~/Views/Shared/Setup.cshtml";
+
+    string xmlString = dpz.Net.Http.GetUTF8($"{site.Config.Orm.XmlUrl}/Setting.xml");
+    //bool hasAos = false;
+
+    //using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+    //    if (dbc.CheckTable("AosObjects")) {
+    //        hasAos = !dbc.GetGdmlOne($"@{{$[AosUsers]&[Name=='root']}}").IsEmpty;
+    //    }
+    //}
+
+    bool hasAosManage = false;
+    bool hasAuthorize = false;
+    bool hasDesktop = false;
+    bool isDesktopAuthorize = false;
+
+    long authId = 0;
+    long desktopId = 0;
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Defend)) {
+        //hasAosManage = dbc.GetOne("select * from sys.databases where [name] = 'Aos_Manage'").HasData;
+        hasAosManage = dbc.CheckDatabase("Aos_Manage");
+    }
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        if (dbc.CheckTable("AosAuthorize")) {
+            var row = dbc.GetGdmlOne($"@{{$[AosAuthorize]&[DBSign=='Manage']}}");
+            hasAuthorize = !row.IsEmpty;
+            if (hasAuthorize) { authId = row["ID"].ToLong(); }
+        }
+    }
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        if (dbc.CheckTable("AosDesktops")) {
+            var row = dbc.GetGdmlOne($"@{{$[AosDesktops]&[Host=='*']}}");
+            hasDesktop = !row.IsEmpty;
+            if (hasDesktop) { desktopId = row["ID"].ToLong(); }
+        }
+    }
+
+    using (dpz.Gdbc.Connection dbc = new dpz.Gdbc.Connection(site.Config.Database.Aos)) {
+        if (dbc.CheckTable("AosDesktopAuthorizes")) {
+            var row = dbc.GetGdmlOne($"@{{$[AosDesktopAuthorizes]&[DesktopID=='{desktopId}'&&AuthID=='{authId}']}}");
+            if (row["Compatibility"].ToInteger() > 0) {
+                isDesktopAuthorize = true;
+            }
+        }
+    }
+
+    string ip = System.Net.NetworkInformation.NetworkInterface.GetAllNetworkInterfaces()
+        .Select(p => p.GetIPProperties())
+        .SelectMany(p => p.UnicastAddresses)
+        .Where(p => p.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork && !System.Net.IPAddress.IsLoopback(p.Address))
+        .FirstOrDefault()?.Address.ToString();
+
+
+}
+
+<div class="box">
+    <div class="title">第3/7步&nbsp;安装管理数据库及授权</div>
+    <div class="line">默认云桌面地址&nbsp;@site.Config.Url.Desktop.Replace("${IP}", ip)</div>
+    <div class="line">管理实体访问地址&nbsp;<span>@site.Config.Url.Manage.Replace("${IP}", ip)</span></div>
+    <div class="line">默认云桌面设置状态&nbsp;@Html.Raw(hasDesktop ? "<span style='color:#090;'>正常</span>" : "<span style='color:#900;'>未设置</span>")</div>
+    <div class="line">管理授权状态&nbsp;@Html.Raw(hasAuthorize ? "<span style='color:#090;'>正常</span>" : "<span style='color:#900;'>未添加</span>")</div>
+    <div class="line">管理数据库状态&nbsp;@Html.Raw(hasAosManage ? "<span style='color:#090;'>正常</span>" : "<span style='color:#900;'>未安装</span>")</div>
+    <div class="line">默认云桌面管理授权兼容性&nbsp;@Html.Raw(isDesktopAuthorize ? "<span style='color:#090;'>正常</span>" : "<span style='color:#900;'>未兼容</span>")</div>
+    <div class="buttons">
+        @if (!(hasAuthorize && hasAosManage && hasDesktop && isDesktopAuthorize)) {
+            <a id="lnkSetup" href="javascript:;" onclick="self.createManage();">初始化管理数据库</a>
+        }
+        <a href="/Setup/Step2">上一步</a>
+        @if (hasAuthorize && hasAosManage && hasDesktop) {
+            <a href="/Setup/Step4">下一步</a>
+        }
+    </div>
+</div>
+

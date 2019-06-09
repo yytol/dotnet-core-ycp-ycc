@@ -1,0 +1,35 @@
+﻿@using System.Reflection
+@using System.ComponentModel
+
+@{
+    Layout = null;
+
+    //创建控制器类型列表
+    List<Type> controllerTypes = new List<Type>();
+
+    //加载程序集
+    var assembly = Assembly.Load("Api");
+
+    //获取程序集下所有的类，通过Linq筛选继承IController类的所有类型
+    controllerTypes.AddRange(assembly.GetTypes().Where(type => typeof(Controller).IsAssignableFrom(type)));
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>API列表</title>
+</head>
+<body>
+    @foreach (var controller in controllerTypes) {
+        string clrPath = "/" + controller.Name.Substring(0, controller.Name.Length - 10);
+        <div style="font-size:14px;">控制器:@controller.Name</div>
+        var actions = controller.GetMethods().Where(method => method.ReturnType.Name == "IActionResult");
+        foreach (var action in actions) {
+            <div style="text-indent:14px;font-size:14px;">@(clrPath + "/" + action.Name)&nbsp;-&nbsp;@((action.GetCustomAttribute(typeof(DescriptionAttribute)) as DescriptionAttribute) == null ? "" : (action.GetCustomAttribute(typeof(DescriptionAttribute)) as DescriptionAttribute).Description)</div>
+        }
+    }
+</body>
+</html>

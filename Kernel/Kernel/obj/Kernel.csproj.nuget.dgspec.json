@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\Kernel.csproj": {}
+  },
+  "projects": {
+    "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\Kernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\Kernel.csproj",
+        "projectName": "Kernel",
+        "projectPath": "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\Kernel.csproj",
+        "packagesPath": "C:\\Users\\inmou\\.nuget\\packages\\",
+        "outputPath": "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inmou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.lywos.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.513, )"
+            },
+            "dpz.Core": {
+              "target": "Package",
+              "version": "[1.3.1905.20, )"
+            },
+            "dpz.Gdbc.Core": {
+              "target": "Package",
+              "version": "[1.1.1901.6, )"
+            },
+            "dpz.Json.Core": {
+              "target": "Package",
+              "version": "[1.1.1901.11, )"
+            },
+            "dpz.Mvc.Core": {
+              "target": "Package",
+              "version": "[1.5.1905.57, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

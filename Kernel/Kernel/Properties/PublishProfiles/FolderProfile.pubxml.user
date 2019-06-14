@@ -6,137 +6,1562 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>X:\Publish\Private\P18013_Ydm5\Kernel</_PublishTargetUrl>
+    <_PublishTargetUrl>X:\Publish\yytol\dotnet-core-ycp-ycc</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
-    <File Include="host.json">
-      <publishTime>10/22/2018 22:42:06</publishTime>
+    <File Include="wwwroot/lib/editor.md/.gitignore">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="site_config.json">
-      <publishTime>04/12/2019 11:24:17</publishTime>
+    <File Include="wwwroot/lib/editor.md/.jshintrc">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="ssl/214553656510862.pfx">
-      <publishTime>10/22/2018 12:50:48</publishTime>
+    <File Include="wwwroot/lib/editor.md/bower.json">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="ssl/pfx-password.txt">
-      <publishTime>10/22/2018 12:50:48</publishTime>
+    <File Include="wwwroot/lib/editor.md/BUGS.md">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/css/Shared/Home.css">
-      <publishTime>02/09/2019 10:54:49</publishTime>
+    <File Include="wwwroot/lib/editor.md/CHANGE.md">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/js/Home/About.js">
-      <publishTime>04/25/2019 13:05:23</publishTime>
+    <File Include="wwwroot/lib/editor.md/css/editormd.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/js/Shared/Home.js">
-      <publishTime>02/26/2019 22:56:11</publishTime>
+    <File Include="wwwroot/lib/editor.md/css/editormd.logo.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/js/Shared/Setup.js">
-      <publishTime>04/13/2019 15:12:14</publishTime>
+    <File Include="wwwroot/lib/editor.md/css/editormd.logo.min.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/js/site.js">
-      <publishTime>04/22/2019 15:28:19</publishTime>
+    <File Include="wwwroot/lib/editor.md/css/editormd.min.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/js/site.min.js">
-      <publishTime>02/26/2019 22:56:10</publishTime>
+    <File Include="wwwroot/lib/editor.md/css/editormd.preview.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/js/ycc.js">
-      <publishTime>05/25/2019 22:49:55</publishTime>
+    <File Include="wwwroot/lib/editor.md/css/editormd.preview.min.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
-      <publishTime>02/26/2019 22:56:12</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/editormd.js.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
-      <publishTime>02/26/2019 22:56:13</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Bold-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
-      <publishTime>02/26/2019 22:56:13</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Bold-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
-      <publishTime>02/26/2019 22:56:14</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Bold-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
-      <publishTime>02/26/2019 22:56:15</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-BoldItalic-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
-      <publishTime>02/26/2019 22:56:15</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-BoldItalic-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
-      <publishTime>02/26/2019 22:56:16</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-BoldItalic-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
-      <publishTime>02/26/2019 22:56:17</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Italic-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
-      <publishTime>02/26/2019 22:56:17</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Italic-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
-      <publishTime>02/26/2019 22:56:18</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Italic-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>02/26/2019 22:56:18</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Light-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
-      <publishTime>02/26/2019 22:56:19</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Light-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>02/26/2019 22:56:19</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Light-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
-      <publishTime>02/26/2019 22:56:20</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-LightItalic-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
-      <publishTime>02/26/2019 22:56:20</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-LightItalic-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
-      <publishTime>02/26/2019 22:56:21</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-LightItalic-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/bootstrap/LICENSE">
-      <publishTime>02/26/2019 22:56:12</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Regular-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/dpz/dpz.js">
-      <publishTime>05/25/2019 22:49:11</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Regular-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
-      <publishTime>02/26/2019 22:56:27</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/fonts/OpenSans-Regular-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
-      <publishTime>02/26/2019 22:56:27</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
-      <publishTime>02/26/2019 22:56:28</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/scripts/linenumber.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
-      <publishTime>02/26/2019 22:56:24</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/scripts/prettify/Apache-License-2.0.txt">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
-      <publishTime>02/26/2019 22:56:25</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/scripts/prettify/lang-css.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
-      <publishTime>02/26/2019 22:56:26</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/scripts/prettify/prettify.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
-      <publishTime>02/26/2019 22:56:26</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/styles/jsdoc-default.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
-      <publishTime>02/26/2019 22:56:24</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/styles/prettify-jsdoc.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery/dist/jquery.js">
-      <publishTime>02/26/2019 22:56:22</publishTime>
+    <File Include="wwwroot/lib/editor.md/docs/styles/prettify-tomorrow.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
-      <publishTime>02/26/2019 22:56:23</publishTime>
+    <File Include="wwwroot/lib/editor.md/editormd.amd.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
-      <publishTime>02/26/2019 22:56:23</publishTime>
+    <File Include="wwwroot/lib/editor.md/editormd.amd.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/jquery/LICENSE.txt">
-      <publishTime>02/26/2019 22:56:21</publishTime>
+    <File Include="wwwroot/lib/editor.md/editormd.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/vue/vue.js">
-      <publishTime>04/25/2019 12:13:08</publishTime>
+    <File Include="wwwroot/lib/editor.md/editormd.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
-    <File Include="wwwroot/lib/vue/vue.min.js">
-      <publishTime>04/25/2019 13:46:04</publishTime>
+    <File Include="wwwroot/lib/editor.md/examples/%40links.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/auto-height.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/change-mode.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/code-fold.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/css/style.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/custom-keyboard-shortcuts.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/custom-toolbar.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/define-plugin.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/delay-renderer-preview.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/dynamic-create-editormd.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/emoji.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/extends.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/external-use.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/flowchart.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/form-get-value.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/full.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/goto-line.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/html-preview-markdown-to-html-custom-toc-container.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/html-preview-markdown-to-html.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/html-tags-decode.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/image-cross-domain-upload.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/image-upload.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/images/4.jpg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/images/7.jpg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/images/8.jpg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/images/editormd-screenshot.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/js/jquery.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/js/require.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/js/sea.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/js/seajs-main.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/js/zepto.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/katex.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/manually-load-modules.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/multi-editormd.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/multi-languages.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/on-off.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onchange.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onfullscreen.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onload.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onpreviewing-onpreviewed.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onresize.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onscroll-onpreviewscroll.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/onwatch-onunwatch.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/page-break.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/php/cross-domain-upload.php">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/php/editormd.uploader.class.php">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/php/post.php">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/php/upload.php">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/php/upload_callback.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/readonly.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/resettings.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/search-replace.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/sequence-diagram.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/set-get-replace-selection.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/simple.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/sync-scrolling.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/task-lists.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/test.md">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/themes.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/toc.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/toolbar-auto-fixed.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/use-requirejs.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/use-seajs.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/examples/use-zepto.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/editormd-logo.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/editormd-logo.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/editormd-logo.ttf">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/editormd-logo.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/fontawesome-webfont.eot">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/fontawesome-webfont.svg">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/fontawesome-webfont.ttf">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/fontawesome-webfont.woff">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/fontawesome-webfont.woff2">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/fonts/FontAwesome.otf">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/Gulpfile.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/loading%402x.gif">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/loading%403x.gif">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/loading.gif">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-favicon-16x16.ico">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-favicon-24x24.ico">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-favicon-32x32.ico">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-favicon-48x48.ico">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-favicon-64x64.ico">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-114x114.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-120x120.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-144x144.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-16x16.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-180x180.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-240x240.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-24x24.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-320x320.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-32x32.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-48x48.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-57x57.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-64x64.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-72x72.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/editormd-logo-96x96.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/images/logos/vi.png">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/languages/en.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/languages/zh-tw.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/comment/comment.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/comment/continuecomment.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/dialog/dialog.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/dialog/dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/display/fullscreen.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/display/fullscreen.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/display/panel.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/display/placeholder.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/display/rulers.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/edit/closebrackets.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/edit/closetag.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/edit/continuelist.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/edit/matchbrackets.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/edit/matchtags.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/edit/trailingspace.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/brace-fold.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/comment-fold.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/foldcode.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/foldgutter.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/foldgutter.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/indent-fold.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/markdown-fold.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/fold/xml-fold.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/anyword-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/css-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/html-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/javascript-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/show-hint.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/show-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/sql-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/hint/xml-hint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/coffeescript-lint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/css-lint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/javascript-lint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/json-lint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/lint.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/lint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/lint/yaml-lint.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/merge/merge.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/merge/merge.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/mode/loadmode.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/mode/multiplex.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/mode/multiplex_test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/mode/overlay.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/mode/simple.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/runmode/colorize.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/runmode/runmode-standalone.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/runmode/runmode.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/runmode/runmode.node.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/scroll/annotatescrollbar.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/scroll/scrollpastend.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/scroll/simplescrollbars.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/scroll/simplescrollbars.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/search/match-highlighter.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/search/matchesonscrollbar.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/search/matchesonscrollbar.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/search/search.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/search/searchcursor.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/selection/active-line.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/selection/mark-selection.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/selection/selection-pointer.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/tern/tern.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/tern/tern.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/tern/worker.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addon/wrap/hardwrap.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/addons.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/AUTHORS">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/bower.json">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/codemirror.min.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/codemirror.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/lib/codemirror.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/lib/codemirror.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/LICENSE">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/apl/apl.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/apl/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/asterisk/asterisk.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/asterisk/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/clike/clike.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/clike/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/clike/scala.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/clojure/clojure.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/clojure/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/cobol/cobol.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/cobol/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/coffeescript/coffeescript.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/coffeescript/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/commonlisp/commonlisp.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/commonlisp/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/css.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/less.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/less_test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/scss.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/scss_test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/css/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/cypher/cypher.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/cypher/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/d/d.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/d/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dart/dart.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dart/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/diff/diff.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/diff/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/django/django.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/django/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dockerfile/dockerfile.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dockerfile/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dtd/dtd.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dtd/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dylan/dylan.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/dylan/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ebnf/ebnf.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ebnf/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ecl/ecl.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ecl/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/eiffel/eiffel.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/eiffel/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/erlang/erlang.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/erlang/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/forth/forth.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/forth/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/fortran/fortran.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/fortran/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gas/gas.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gas/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gfm/gfm.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gfm/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gfm/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gherkin/gherkin.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/gherkin/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/go/go.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/go/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/groovy/groovy.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/groovy/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haml/haml.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haml/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haml/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haskell/haskell.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haskell/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haxe/haxe.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/haxe/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/htmlembedded/htmlembedded.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/htmlembedded/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/htmlmixed/htmlmixed.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/htmlmixed/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/http/http.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/http/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/idl/idl.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/idl/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/jade/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/jade/jade.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/javascript/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/javascript/javascript.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/javascript/json-ld.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/javascript/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/javascript/typescript.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/jinja2/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/jinja2/jinja2.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/julia/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/julia/julia.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/kotlin/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/kotlin/kotlin.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/livescript/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/livescript/livescript.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/lua/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/lua/lua.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/markdown/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/markdown/markdown.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/markdown/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/meta.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/mirc/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/mirc/mirc.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/mllike/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/mllike/mllike.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/modelica/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/modelica/modelica.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/nginx/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/nginx/nginx.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ntriples/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ntriples/ntriples.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/octave/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/octave/octave.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/pascal/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/pascal/pascal.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/pegjs/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/pegjs/pegjs.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/perl/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/perl/perl.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/php/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/php/php.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/php/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/pig/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/pig/pig.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/properties/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/properties/properties.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/puppet/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/puppet/puppet.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/python/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/python/python.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/q/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/q/q.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/r/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/r/r.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rpm/changes/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rpm/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rpm/rpm.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rst/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rst/rst.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ruby/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ruby/ruby.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/ruby/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rust/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/rust/rust.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sass/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sass/sass.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/scheme/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/scheme/scheme.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/shell/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/shell/shell.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/shell/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sieve/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sieve/sieve.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/slim/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/slim/slim.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/slim/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/smalltalk/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/smalltalk/smalltalk.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/smarty/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/smarty/smarty.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/smartymixed/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/smartymixed/smartymixed.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/solr/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/solr/solr.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/soy/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/soy/soy.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sparql/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sparql/sparql.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/spreadsheet/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/spreadsheet/spreadsheet.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sql/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/sql/sql.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/stex/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/stex/stex.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/stex/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/stylus/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/stylus/stylus.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tcl/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tcl/tcl.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/textile/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/textile/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/textile/textile.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tiddlywiki/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tiddlywiki/tiddlywiki.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tiddlywiki/tiddlywiki.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tiki/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tiki/tiki.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tiki/tiki.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/toml/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/toml/toml.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tornado/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/tornado/tornado.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/turtle/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/turtle/turtle.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/vb/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/vb/vb.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/vbscript/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/vbscript/vbscript.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/velocity/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/velocity/velocity.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/verilog/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/verilog/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/verilog/verilog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/xml/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/xml/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/xml/xml.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/xquery/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/xquery/test.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/xquery/xquery.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/yaml/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/yaml/yaml.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/z80/index.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/mode/z80/z80.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/modes.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/package.json">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/README.md">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/3024-day.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/3024-night.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/ambiance-mobile.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/ambiance.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/base16-dark.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/base16-light.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/blackboard.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/cobalt.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/colorforth.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/eclipse.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/elegant.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/erlang-dark.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/lesser-dark.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/mbo.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/mdn-like.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/midnight.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/monokai.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/neat.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/neo.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/night.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/paraiso-dark.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/paraiso-light.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/pastel-on-dark.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/rubyblue.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/solarized.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/the-matrix.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/tomorrow-night-bright.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/tomorrow-night-eighties.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/twilight.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/vibrant-ink.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/xq-dark.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/xq-light.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/codemirror/theme/zenburn.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/flowchart.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/jquery.flowchart.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/marked.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/prettify.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/raphael.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/sequence-diagram.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/lib/underscore.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/LICENSE">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/package.json">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/code-block-dialog/code-block-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/emoji-dialog/emoji-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/emoji-dialog/emoji.json">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/goto-line-dialog/goto-line-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/help-dialog/help-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/help-dialog/help.md">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/html-entities-dialog/html-entities-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/html-entities-dialog/html-entities.json">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/image-dialog/image-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/link-dialog/link-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/plugin-template.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/preformatted-text-dialog/preformatted-text-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/reference-link-dialog/reference-link-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/table-dialog/table-dialog.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/plugins/test-plugin/test-plugin.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/README.md">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.codemirror.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.dialog.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.form.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.grid.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.logo.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.menu.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.preview.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.preview.themes.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.tab.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/editormd.themes.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/font-awesome.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/github-markdown.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/lib/prefixes.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/lib/variables.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/scss/prettify.scss">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/src/editormd.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/bootstrap-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/codemirror-searchbox-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/codemirror-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/css/bootstrap-theme.min.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/css/bootstrap.min.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/js/bootstrap.min.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/js/searchbox.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/katex-tests.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/marked-%40at-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/marked-emoji-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/marked-heading-link-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/marked-todo-list-test.html">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/qunit/qunit-1.16.0.css">
+      <publishTime>05/09/2019 19:48:29</publishTime>
+    </File>
+    <File Include="wwwroot/lib/editor.md/tests/qunit/qunit-1.16.0.js">
+      <publishTime>05/09/2019 19:48:29</publishTime>
     </File>
   </ItemGroup>
 </Project>

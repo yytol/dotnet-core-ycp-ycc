@@ -40,6 +40,12 @@ ycc.info = {
                 "增加操作队列，更好的兼容复杂任务",
                 "增加框架间消息传输支持,兼容dpz套件的数据传输"
             ]
+        },
+        {
+            version: "5.3.1906", build: 5,
+            notes: [
+                "增加Markdown编辑器支持"
+            ]
         }
     ],
     getLatestVersion: function () {

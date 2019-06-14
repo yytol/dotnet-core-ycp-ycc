@@ -44,7 +44,7 @@ ycc.info = {
         {
             version: "5.3.1906", build: 5,
             notes: [
-                "增加Markdown编辑器支持"
+                "修改了一些问题"
             ]
         }
     ],

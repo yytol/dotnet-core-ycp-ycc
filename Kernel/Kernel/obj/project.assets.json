@@ -14141,11 +14141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\Kernel.csproj",
+      "projectUniqueName": "X:\\Projects\\yytol\\dotnet-core-ycp-ycc\\Kernel\\Kernel\\Kernel.csproj",
       "projectName": "Kernel",
-      "projectPath": "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\Kernel.csproj",
+      "projectPath": "X:\\Projects\\yytol\\dotnet-core-ycp-ycc\\Kernel\\Kernel\\Kernel.csproj",
       "packagesPath": "C:\\Users\\inmou\\.nuget\\packages\\",
-      "outputPath": "X:\\Projects\\Private\\P18013_Ydm5\\trunk\\Kernel\\Kernel\\obj\\",
+      "outputPath": "X:\\Projects\\yytol\\dotnet-core-ycp-ycc\\Kernel\\Kernel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
